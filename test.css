@@ -1,0 +1,29 @@
+#div_1 {
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: clip;
+}
+
+#div_1 > img {
+    display: inline;
+    align-self: flex-end;
+    rotate: -30deg;
+}
+
+#div_2 {
+    background-color: brown;
+    height: 100vh;
+}
+
+#img_box {
+    height: 100px;
+    width: fit-content;
+    background-color: chocolate;
+    overflow: visible;
+}
+
+#img_box > img {
+    justify-self: center;
+}
