@@ -1,8 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#hero_section,
+#about_us,
+#reviews,
+#form,
+#visit_us {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 #hero_section {
     background-color: blue;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
+    /* border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px; */
     overflow: clip;
 }
 
