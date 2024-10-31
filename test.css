@@ -2,11 +2,23 @@ body {
     padding: 0;
     margin: 0;
     background-color: #f7f8ed;
-    font-family: "Noto Sans", sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: "Roboto", serif;
+    font-size: 45px;
+    font-weight: 900;
+    font-style: oblique;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: "Noto Sans", sans-serif;
 }
 
 #hero_section,
@@ -34,6 +46,7 @@ html {
 #menu_bar > nav {
     align-self: center;
     justify-content: flex-end;
+    font-family: "Noto Sans", sans-serif;
 }
 
 #menu_bar > nav > a {
@@ -42,7 +55,7 @@ html {
     border-radius: 20px;
     padding: 7px 14px;
     margin-left: 80px;
-    transition: background-color 0.20s, color 0.20s;
+    transition: all 0.30s;
 }
 
 #menu_bar > nav > .nav_btn:hover {
@@ -52,6 +65,7 @@ html {
 
 #CTA {
     background-color: #a70018;
+    font-size: 20px;
 }
 
 #hero_section {
@@ -77,13 +91,6 @@ html {
     padding: 25px;
 }
 
-#welcome_txt > h1 {
-    font-size: 45px;
-    font-weight: 900;
-    margin-bottom: 0;
-    text-transform: uppercase;
-}
-
 #welcome_txt > p {
     margin-top: 15px;
     font-size: 20px;
@@ -97,7 +104,13 @@ html {
     height: 60%;
     float: right;
     /* margin: 25px 150px; */
+    transition: all 0.60s;
+}
+
+#hero_section > img:hover {
     rotate: -20deg;
+    height: 65%;
+    cursor: pointer;
 }
 
 #container {
@@ -115,7 +128,7 @@ html {
     border-width: 7px;
     border-radius: 7px;
     box-shadow: 3px 4px #1b1b1d;
-    transition: all 0.20s;
+    transition: all 0.35s;
 }
 
 #container > img:hover {
