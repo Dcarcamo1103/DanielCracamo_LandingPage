@@ -102,45 +102,33 @@ html {
 
 #container {
     padding: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-#img_wrapper {
-    position: relative;
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-#imgs {
-    display: flex;
-    aspect-ratio: 16/9;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+#container > img {
+    margin: 10px;
+    width: 20%;
+    border-style: solid;
+    border-color: #faaa14;
+    border-width: 7px;
     border-radius: 7px;
+    box-shadow: 3px 4px #1b1b1d;
+    transition: all 0.20s;
 }
 
-#imgs > img {
-    flex: 1 0 100%;
-    scroll-snap-align: start;
-    object-fit: cover;
-}
-
-#slider_nav {
-    display: flex;
-    column-gap: 2px;
-    position: absolute;
-    z-index: 1;
-}
-
-#slider_nav > a {
-    height: 5px;
-    width: 5px;
-    border-radius: 50%;
-    background-color: #f7f8ed;
+#container > img:hover {
+    width: 25%;
+    cursor: pointer;
 }
 
 #about_us {
+    /* border-style: solid;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px; */
     padding-top: 60px;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 60px); 
 }
 
 #reviews {
