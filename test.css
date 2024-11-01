@@ -124,6 +124,7 @@ p {
 
 #container {
     padding: 20px;
+    margin-top: 45px;
     display: inline-flex;
     align-items: center;
     justify-content: space-evenly;
@@ -159,7 +160,7 @@ p {
 
 #about_us > img {
     height: 55%;
-    border-radius: 10px 0;
+    border-radius: 25px 0;
     border-style: solid;
     border-color: #145E9F;
     border-width: 7px;
@@ -184,6 +185,8 @@ p {
     color: #f7f8ed;
     background-color: #145E9F;
     text-align: center;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 #review_cards {
@@ -203,6 +206,12 @@ p {
     border-radius: 8px;
     box-shadow: 3px 4px #1b1b1d;
     text-align: center;
+    transition: all 0.35s;
+}
+
+.profile-card:hover {
+    transform: translateY(-20px);
+    cursor: pointer;
 }
 
 .profile-image {
@@ -231,6 +240,38 @@ p {
     color: #1b1b1d;
     margin-top: 5px;
     line-height: 25px;
+}
+
+#form {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#newsletter {
+    /* display: inline-flex; */
+    align-content: center;
+    width: 100%;
+    /* background-color: #a70018; */
+}
+
+#newsletter > h1 {
+    color: #1b1b1d;
+    text-align: center;
+}
+
+#form > img {
+    height: 500px;
+    border-left: 7px solid #faaa14;
+}
+
+#email {
+    height: 100%;
+    width: 40%;
+}
+
+#subscribe {
+    padding: 0;
+    height: 100%;
 }
 
 #visit_us {
