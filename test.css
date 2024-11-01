@@ -9,7 +9,9 @@ html {
 }
 
 h1 {
-    font-family: "Roboto", serif;
+    /* font-family: "Roboto", serif; */
+    font-family: "Bangers", system-ui;
+    letter-spacing: 3px;
     font-size: 45px;
     font-weight: 900;
     font-style: oblique;
@@ -147,9 +149,10 @@ p {
 }
 
 #about_us {
-    /* border-style: solid;
+    /* border-style: solid; */
+    background-color: #f7f8ed;
     border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px; */
+    border-bottom-left-radius: 15px;
     padding-top: 60px;
     height: calc(100vh - 60px);
     display: inline-flex;
@@ -178,6 +181,7 @@ p {
 }
 
 #reviews {
+    margin-top: -15px;
     padding-top: 60px;
     padding-bottom: 65px;
     height: calc(100vh - 60px);
@@ -243,6 +247,7 @@ p {
 }
 
 #form {
+    margin-top: -15px;
     display: inline-flex;
     justify-content: space-between;
 }
@@ -262,6 +267,7 @@ p {
 }
 
 #form > img {
+    z-index: -1;
     height: 500px;
     border-left: 7px solid #faaa14;
 }
@@ -286,7 +292,6 @@ p {
     border-radius: 10px;
     border-style: solid;
     border-color: #1b1b1d;
-    transition: all 0.30s;
 }
 
 #subscribe {
