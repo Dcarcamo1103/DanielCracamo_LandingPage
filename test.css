@@ -54,21 +54,27 @@ p {
     align-self: center;
     /* justify-content: flex-end; */
     float: right;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Bangers", system-ui;
+    letter-spacing: 0.2em;
 }
 
 #menu_bar > nav > a {
     color: #f7f8ed;
     text-decoration: none;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 3px;
     border-radius: 20px;
     padding: 7px 14px;
     margin-left: 80px;
-    transition: all 0.30s;
+    transition: all 0.20s;
 }
 
 #menu_bar > nav > .nav_btn:hover {
-    background-color: #faaa14;
-    color: #1b1b1d;
+    /* background-color: #faaa14; */
+    /* border-style: solid; */
+    border-color: #faaa14;
+    /* color: #1b1b1d; */
 }
 
 #CTA {
@@ -76,7 +82,8 @@ p {
 }
 
 #CTA:hover {
-    font-size: 18px;
+    background-color: transparent;
+    border-color: #a70018;
 }
 
 #hero_section {
@@ -94,6 +101,7 @@ p {
 
 #welcome_txt {
     /* color: #1B1B1D; */
+    /* position: fixed; */
     color: #f7f8ed;
     /* background-color: #faaa14; */
     border-radius: 7px;
@@ -121,7 +129,7 @@ p {
 #hero_section > img:hover {
     rotate: -20deg;
     height: 65%;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 #container {
@@ -144,8 +152,8 @@ p {
 }
 
 #container > img:hover {
-    width: 25%;
-    cursor: pointer;
+    width: 21%;
+    /* cursor: pointer; */
 }
 
 #about_us {
@@ -245,7 +253,7 @@ p {
     color: #1b1b1d;
     margin-top: 5px;
     line-height: 25px;
-    /* text-align: center; */
+    text-align: center;
 }
 
 #form {
@@ -280,7 +288,7 @@ p {
 
 #inputs {
     /* background-color: #145E9F; */
-    margin-top: 20px;
+    margin-top: 35px;
     height: 45px;
     width: 800px;
     display: inline-flex;
@@ -298,18 +306,21 @@ p {
     border-radius: 10px;
     border-style: solid;
     border-color: #1b1b1d;
+    box-shadow: 3px 4px #1b1b1d;
 }
 
 #subscribe {
     padding: 0 15px;
-    font-family: "Noto Sans", sans-serif;
-    font-size: 1em;
+    font-family: "Bangers", system-ui;
+    letter-spacing: 0.2em;
+    font-size: 1.1em;
     color: #f7f8ed;
     height: 100%;
     margin: 15px;
     background-color: #a70018;
     border-style: none;
     border-radius: 10px;
+    box-shadow: 3px 4px #1b1b1d;
 }
 
 #subscribe:hover {
@@ -355,7 +366,7 @@ p {
 
 .info-card {
     width: 250px;
-    height: fit-content;
+    height: 110px;
     padding: 15px;
     background-color: #f7f8ed;
     border: 3px solid #faaa14;
