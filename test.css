@@ -67,7 +67,7 @@ p {
     border-radius: 20px;
     padding: 7px 14px;
     margin-left: 80px;
-    transition: all 0.20s;
+    transition: all 0.30s;
 }
 
 #menu_bar > nav > .nav_btn:hover {
@@ -161,6 +161,7 @@ p {
     background-color: #f7f8ed;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+    /* padding: 0 20px; */
     padding-top: 60px;
     height: calc(100vh - 60px);
     display: inline-flex;
@@ -321,6 +322,7 @@ p {
     border-style: none;
     border-radius: 10px;
     box-shadow: 3px 4px #1b1b1d;
+    transition: all 0.30s;
 }
 
 #subscribe:hover {
